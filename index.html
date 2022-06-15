@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link href=' http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+</head>
+
+<body class="container">
+    <div class="form-container">
+
+        <img src="Devtailor_Software_Small.png">
+
+        <p class="lets_text">let's get started</p>
+        <form>
+            <div class="material-textfield">
+                <select name="country">
+                    <option value="Estonia">Estonia</option>
+                    <option value="USA">USA</option>
+                </select>
+                <label>Country of residence</label>
+            </div>
+            <div class="material-textfield">
+                <input id="EInput" placeholder=" " type="email" onchange="onchangeEmail(this.value)">
+                <label id="ELable">Email</label>
+            </div>
+            <div class="material-textfield">
+
+                <input placeholder=" " id="PI" type="password" onchange="onchangePass(this.value)">
+
+                <label>Create your password</label>
+                <i class="bi bi-eye-slash" onclick="togglePassword(this,'PI')"></i>
+            </div>
+            <div class="material-textfield">
+                <input placeholder=" " id="PCI" type="password" onchange="onchangePass(this.value)">
+                <label id="PCLable">Re-enter password</label>
+                <i class="bi bi-eye-slash" onclick="togglePassword(this,'PCI')"></i>
+            </div>
+            <div class="material-textfield">
+                <div class="row-container" style="width: 250px;">
+                    <input style="width: auto; background-color: #FAFAFA;" type="checkbox">
+                    <p style="font-size: 15px;">I agree with <a href="#">Terms & Conditions</a></p>
+                </div>
+            </div>
+            <div class="material-textfield">
+                <input style="width: 252px; background-color: #2A4EA9; color: #FAFAFA; border: 0px;" value="Sign Up"
+                    type="submit">
+                <p class="text" ><a href="#">Log In</a></p>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <p class="text" style="font-size: 15px;"><a style="font-weight: normal;" href="#">Customer support</a></p>
+    </footer>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
