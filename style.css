@@ -64,7 +64,7 @@ select {
     font-size: 16px;
     font-weight: 600;
     outline: none;
-    border: 1px solid gray;
+    border: 1px solid #BDC6D0;
     border-radius: 5px;
     /* padding: 1rem 0.7rem; */
     padding: 10px 15px;
