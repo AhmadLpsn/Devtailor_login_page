@@ -136,6 +136,13 @@ a {
     border-color: #EF5DA8;
 }
 
+.submit {
+    width: 252px;
+    background-color: #2A4EA9;
+    color: #FAFAFA;
+    border: 0px;
+}
+
 footer {
     bottom: 15px;
     position: absolute;

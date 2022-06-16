@@ -1,1 +1,1 @@
-# Devtailor_login_page
+# Just open index.html in your preferred browser
